@@ -95,6 +95,7 @@ public class Moveforward : MonoBehaviour
 }
 ```
 ## Output:
+![EX04 Copy](https://user-images.githubusercontent.com/75235747/173262568-8481c21d-53f2-4a8d-8156-8f727fd612a7.png)
 
 ## Result:
 Animal feeding game-Phase-1 using unity is developed successfully.
