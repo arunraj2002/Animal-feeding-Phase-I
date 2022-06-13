@@ -39,7 +39,6 @@ Edit their speed values and test to see how it looks. Drag all three animals int
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PlayerController : MonoBehaviour
 {
     public float horizontalInput;
@@ -51,8 +50,7 @@ public class PlayerController : MonoBehaviour
     {
         
     }
-
-    // Update is called once per frame
+ // Update is called once per frame
     void Update()
     {
         if(transform.position.x < -xRange)
@@ -77,7 +75,6 @@ public class PlayerController : MonoBehaviour
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Moveforward : MonoBehaviour
 {
     public float speed = 40.0f;
@@ -86,8 +83,7 @@ public class Moveforward : MonoBehaviour
     {
 
     }
-
-    // Update is called once per frame
+// Update is called once per frame
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
